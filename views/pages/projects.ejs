@@ -163,7 +163,7 @@ img.hover-shadow {
 
 <h1>projects</h1>
 
-<! Row 1>
+<!-- Row 1-->
 <div class="row">
   <div class="column">
     <div class="img" style="background-image:url('https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></div>
@@ -184,22 +184,22 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext">1 / 8</div>
       <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
+      <div class="numbertext">2 / 8</div>
       <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
+      <div class="numbertext">3 / 8</div>
       <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%">
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
+      <div class="numbertext">4 / 8</div>
       <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%">
     </div>
     
@@ -225,6 +225,71 @@ img.hover-shadow {
     </div>
   </div>
 </div>
+<!-- End Row 1 -->
+
+<!-- Row 2-->
+<div class="row">
+  <div class="column">
+    <div class="img" style="background-image:url('https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></div>
+  </div>
+  <div class="column">
+    <div class="img" style="background-image:url('https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"></div>
+  </div>
+  <div class="column">
+    <div class="img" style="background-image:url('https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></div>
+  </div>
+  <div class="column">
+    <div class="img" style="background-image:url('https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></div>
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width:200px" onclick="currentSlide(1)" alt="Row Two Pic 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hdwallsource.com/img/2014/8/landscape-28214-28936-hd-wallpapers.jpg" style="width:200px" onclick="currentSlide(2)" alt="Row Two Pic 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://environment.umn.edu/wp-content/uploads/2016/04/global_landscapes_initiative_directory_pages.jpg" style="width:200px" onclick="currentSlide(3)" alt="Row Two Pic 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://s-media-cache-ak0.pinimg.com/originals/f8/df/3c/f8df3c5a3d8f1ed492f2b5e874563c90.jpg" style="width:200px" onclick="currentSlide(4)" alt="Row Two Pic 4">
+    </div>
+  </div>
+</div>
+<!-- End Row 2 -->
 
 <script>
 function openModal() {

@@ -2,12 +2,33 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("http://www.jasonhagani.com/wp-content/uploads/2018/09/Teton-Sunset-Pano.jpg");
+
+    /* Full height */
+    height: 75%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+
 </head>
 
 <body>
   
-<div class="bg"></div>
-
 <div class="jumbotron text-center">
   <div class="container">
     <a href="/" class="lang-logo">
