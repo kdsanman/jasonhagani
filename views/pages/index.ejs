@@ -4,20 +4,105 @@
   <% include ../partials/header.ejs %>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    }
+}
+h1 {
+    letter-spacing: 8px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
 
+</style>
 </head>
 
 <body>
 
-<div class="bg"></div>
+<!--Main Navigation-->
+        <header>
+
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><strong>MDB</strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Profile</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline">
+                            <div class="md-form mt-0">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Intro Section -->
+            <div class="view hm-black-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(http://www.jasonhagani.com/wp-content/uploads/2018/09/Teton-Sunset-Pano.jpg);">
+                <div class="full-bg-img">
+                    <div class="container flex-center">
+                        <div class="row pt-5 mt-3">
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-3 wow fadeInDown" data-wow-delay="0.3s"><strong>JASON HAGANI</strong></h1>
+                                    <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
+                                    <h5 class="text-uppercase mb-5 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>ADDING ORDER TO THE CHAOS AND WONDER THAT IS THE NATURAL WORLD.</strong></h5>
+                                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Photo Galleries</a>
+                                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Blog</a>
+                                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About Me</a>
+                                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!--Main Navigation-->
+
+<!--
   
 <div class="jumbotron text-center">
     <h1>JASON HAGANI PHOTOGRAPHY</h1>
     <p>ADDING ORDER TO THE CHAOS AND WONDER THAT IS THE NATURAL WORLD.</p>
-    <!--<a type="button" class="btn btn-lg btn-primary" href="#"><span class="glyphicon glyphicon-download"></span> Resume</a> -->
     <% include ../partials/nav.ejs %>
 </div>
-
+-->
   
 
 <!--
@@ -64,6 +149,7 @@
 </div>
 -->
 
+<script type="text/javascript" src="js/modules/wow.js"></script>
 
 </body>
 </html>
