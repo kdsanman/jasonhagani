@@ -1,7 +1,7 @@
 .jumbotron {
   background: #000000;
   color: white;
-  padding-bottom: 30px; }
+  padding-bottom: 0px; }
   .jumbotron .btn-primary {
     background: #845ac7;
     border-color: #845ac7; }
@@ -21,7 +21,7 @@
     width: 100px;
     height: 100px;
     margin: auto;
-    border: 2px solid white; }
+    border: 0px solid white; }
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
@@ -30,7 +30,7 @@
     background-image: url("http://www.jasonhagani.com/wp-content/uploads/2018/09/Teton-Sunset-Pano.jpg");
 
     /* Full height */
-    height: 75%; 
+    height: 50%; 
 
     /* Center and scale the image nicely */
     background-position: center;
